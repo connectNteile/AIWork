@@ -2,4 +2,13 @@ complete AI course
 
 1. Introduction to AI Mastery course
 
+Data : AI systems need data to perform
+Algorithm: the step by step process to develop AI
+Machine Learning: its like learning to cook without explicit recipe
+Neural Network: complex kitchen with many specialized station. They have reunion of network that have layers each performing simple calculation 
+Deep Learning: is like multiple kitchen stacked on top each other . The output of one kitchen is the input for the next.
 
+Types of machine learning
+-supervised learning: working with label or known data and getting feedback. You learn by comparing your results.
+-unsupervised learning: working with unknown label or data. so you set for your result by experimenting , looking for similar partterns so as to make conclusion.
+-reinforcement: learning to cook through taste testing. Try different approach 
