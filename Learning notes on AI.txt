@@ -11,4 +11,4 @@ Deep Learning: is like multiple kitchen stacked on top each other . The output o
 Types of machine learning
 -supervised learning: working with label or known data and getting feedback. You learn by comparing your results.
 -unsupervised learning: working with unknown label or data. so you set for your result by experimenting , looking for similar partterns so as to make conclusion.
--reinforcement: learning to cook through taste testing. Try different approach 
+-Reinforcement: learning to cook through taste testing. Try different approach 
