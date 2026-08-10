@@ -21,5 +21,32 @@ AI techniques & Approach
 
 AI architecture components
 -Training Data: is like the cooking school curriculum. it is a collection of examples that the AI learns from. AI systems improves by processing many examples( Training data)
--features: are like the characteristics you notice in ingredients. They are measurable properties of data that algorithms uses to mkae predictions
--model
+-features: are like the characteristics you notice in ingredients. They are measurable properties of data that algorithms uses to make predictions
+-model: A model is like a chef's developed intuition and skill set. it is a result of traning agorithm on data capturing patterns that can be applied in a new situation or reused.
+-inference: it s like cooking a meal after you have mastered the techniques. so once an AI model, is trained , it can make predictions on new data without having to be trained.
+
+*** Advanced AI Concepts ***
+-Overfitting: is like memorizing a recipe so exactly that you cant adapt to different kitchen. An overfitted A model performs well on training data but performs poorly on new data.
+BIAS in AI: is like a chef who has only ever cooked one cuisine / dish.
+so if AI is trained primarily on data from a demographic set/group, it may perform poorly on another demography or data set.
+-Explainable AI (XAI): is like a chef who can describe exactly why they made each decision. XAI aims to make AI decision making transparent and understandable to humans.
+-Transfer learning: is like pastry chef switching to bread baking. it allows AI models trained on one task to be repurposed for a related task.
+
+
+*** AI Ethics & Considerations ***
+-privacy concerns: privacy in AI is like respecting secret family recipes. AI system must handle personal data with appropriate protection and consent.
+-Ethical AI is like sustainable cooking practices. it considers the broader implication of AI systems on society, fairness and human.
+-AI Safety: AI Safety is like kitchen safety protocols. It involves designing systems with safeguard to prevent unintended harmful consequences.
+
+*** Emerging AI Trends ***
+-Federated learning: is like chefs improving recipes without sharing their exact ingredients. it allow AI model to be trained across multiple devices without sharing raw data.
+-Edge AI: is like cooking at the table rather than on the distant kitchen. Edge AI processes data locally on devices rather than sending everything in distant server, reducing latency and privacy concerns.
+-AI Augmentation: is like having a smart kitchen assistant. it aims to enhance human capacities rather than replace them.
+-Quantum Machine Learning:  is like discovering entirely new cooking methods beyond conventional heat or method.
+-Quantum computing applies quantum mechanical principle to potentially solve certain problems exponentially faster than classic computer.
+
+Quiz vivianaranha.com
+
+SECTION 2
+*** Introduction to Python Programming Basics ***
+
