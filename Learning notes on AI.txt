@@ -54,4 +54,22 @@ Python for AI
 -libraries like Numpy, Pandas, Tensorflow, Pytorch, and Scikit learn make python ideal for machine learning and data analysis.
 
 -Application of python
-*Machine learning
+*Machine learning (libraries like scikit learn enable building and deployment of ML models
+*Deep Learning (we have tensorflow and pytorch which powers neural network and deep learning )
+*Data Science & Analytics (Libraries like pandas and Matplotlib allow data manipulation and visualization
+*Natural language processing (NLP) libraries like NLTK, spacy, and transformers which are the key for language related task and automation.
+*Automation and scripting: python simplicity and flexibility make it perfect for automating repetitive task.
+
+Installing python and setting up environment (Jupiter notebook , Visual studio code)
+-python.org -> download -> click on download the available version -> go to visualstudio.com (code.visualstudio.com) -> download ->\open the download folder and install the both software downloaded -> open cmd and type python to see if it has been installed. e.g print "hello world".  type quit to end it.
+-next install jupiter from the command line : pip install jupyter -> next type jupyter notebok to open the gui on the browser
+-> create a new python file under new and then start to enter the commands.
+
+using vscode
+-open vscode -> click on extensions and type python and select the python extension and install it. install the debugger too and python indent, extension pack.
+-Next set the interpreter to the installed python for easy scripting.
+
+**** Basic python ****
+(syntax, variables and data type)
+
+
