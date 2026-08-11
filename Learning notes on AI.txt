@@ -71,5 +71,19 @@ using vscode
 
 **** Basic python ****
 (syntax, variables and data type)
+# integer and float | age = 25 | height = 2.9
 
+#String  | name = "Alice" | greeting = "Hello, " + name
+
+#list & numbers
+numbers = [1,2,4,8,4] | nm = ["Ade", "Amaka"] 
+
+#tuple
+cordinate = (7,9,6)
+
+#Dictionary
+person = {"name" : "Jona", "class" : "senior"}
+
+#Boolean | is_student = false
+Hands on exercise: write a python script to print a message HELLO WORLD.
 
