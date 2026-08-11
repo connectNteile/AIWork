@@ -49,4 +49,9 @@ Quiz vivianaranha.com
 
 SECTION 2
 *** Introduction to Python Programming Basics ***
+Python for AI
+-it has become the go to language for AI due to its simplicity , readability , extensive library and support communities
+-libraries like Numpy, Pandas, Tensorflow, Pytorch, and Scikit learn make python ideal for machine learning and data analysis.
 
+-Application of python
+*Machine learning
