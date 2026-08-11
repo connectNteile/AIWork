@@ -86,4 +86,7 @@ person = {"name" : "Jona", "class" : "senior"}
 
 #Boolean | is_student = false
 Hands on exercise: write a python script to print a message HELLO WORLD.
+-see AI Work for code and details.
+
+
 
