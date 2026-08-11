@@ -1,0 +1,19 @@
+# creating and manipulating variables
+integer_var = 50
+float_var = 8.45
+string_var = 'Account'
+list_var = ['first','second','third','fourth']
+tuple_var = (7,9,3)
+dict_var = {"name": "Ayomide", "role" : "Engineer"}
+bool_var = true
+print()
+
+print("integer: ", integer_var)
+print("float: ", float_var)
+print("String: ", string_var + "Bootcamp")
+print("List: ", list_var)
+
+list_var.append("five")
+print("List: ", list_var)
+print("Dictionary: ", dict_var)
+print("Boolean: ", bool_var)
