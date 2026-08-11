@@ -1,0 +1,4 @@
+#python code to print Hello world
+print("HELLO WORLD")
+print()
+print("You are doing great")
