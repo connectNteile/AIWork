@@ -1,0 +1,30 @@
+#Working with for loop
+fruits = ["Mango", "Orange", "pawpaw", "Water melon"]
+for fruit in fruits:
+   print(fruit)
+
+#Working with range
+for i in range(10)
+   print(i)
+
+#Working with break statement
+for i in range (15):
+   if i == 7:
+      break
+   print(i)
+
+
+#Working with continue
+for i in range(8):
+   if i == 5:
+      continue
+   print(i)
+
+
+Ex2:
+for in in range(10):
+   if i % 2 == 0:
+      continue
+   print (i)
+
+
