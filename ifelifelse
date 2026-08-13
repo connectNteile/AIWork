@@ -1,0 +1,9 @@
+#working with if, elif, else
+num = 10
+if num > 10:
+   print ("positive number")
+elif num == 10:
+   print("zero")
+else:
+   print("Negative number")
+
