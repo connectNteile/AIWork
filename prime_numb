@@ -1,0 +1,16 @@
+#prime number code
+if number <= 1:
+    print("Not prime")
+else:
+    # Check for factors from 2 up to the square root of the number
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            print("Not prime")
+            break  # Exit the loop immediately since we found a factor
+    else:
+        # The else block runs only if the loop finishes without hitting 'break'
+        print("Prime")
+
+
+
+or
