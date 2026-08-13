@@ -174,3 +174,45 @@ else:
         print("Prime")
  
 Q2: Addition, sub, multiply & divide
+def add(a,b):
+    return a+b
+
+def subt(a,b):
+    return a-b
+
+def mult(a,b):
+    return a*b
+
+def divid(a,b):
+    if b != 0:
+        return a/b
+    else:
+        return "Division not allowed"
+
+while True:
+    print("\nMenu")
+    print("1. Add")
+    print("2. subt")
+    print("3. mult")
+    print("4. divid")
+    print("5. Exit")
+
+    choice = input("Enter your choice: ")
+    if choice == "5":
+        print("Exiting the program")
+        break
+
+    a = float(input("Enter first number"))
+    b = float(input("Enter second number"))
+
+    if choice == "1":
+        print("Result: ", add(a,b))
+    elif  choice == "2":
+        print("Result: ", subt(a,b))
+    elif  choice == "3":
+        print("Result: ", mult(a,b))
+    elif  choice == "4":
+        print("Result: ", divid(a,b))
+    else:
+        print("Invalid choice")
+Q3? Factorial
