@@ -108,3 +108,53 @@ if age > 18:
       print ("Young Adult")
    else:
       print ("Adult")
+
+
+*** LOOPS ***
+for loop, while loop
+-for loops iterates over a sequence of defined item or list or characters e.g. list, turple, string etc
+Example
+#syntax for loop
+for item in sequences:
+   code block
+Ex
+fruits = ["Apple", "Banana", "Cherry"]
+for fruit in fruits:
+   print(fruit)
+
+-Loop in range
+we can use the for loop in range
+Ex: 
+for i in range(5):
+   print(i)
+
+While Loop
+Executes as long as the condition is true
+Syntax of while loop
+While condition:
+   code block
+
+Ex:
+count = 5
+while count > 0:
+   print(count)
+   count += 1
+
+-Using break and continue
+Ex
+for i in range(10)
+  if i == 5
+     break
+  print(i)
+
+Ex: continue, it skips a loop and continues the sequence.
+for i in range (10):
+   if i == 5:
+      continue
+   print (i)
+
+Ex
+for i in range (10):
+   if i %  2 == 0:
+      continue
+   print(i)
