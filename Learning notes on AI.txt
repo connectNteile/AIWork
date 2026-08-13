@@ -173,3 +173,4 @@ else:
         # The else block runs only if the loop finishes without hitting 'break'
         print("Prime")
  
+Q2: Addition, sub, multiply & divide
