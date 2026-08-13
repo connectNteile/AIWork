@@ -88,5 +88,16 @@ person = {"name" : "Jona", "class" : "senior"}
 Hands on exercise: write a python script to print a message HELLO WORLD.
 -see AI Work for code and details.
 
-
+*** Control flow in python ***
+if, elif, else...
+-if condition is true, add additional conditions after initial if, else execute if none of the condition are met
+Ex.
+num = 10
+if num > 10:
+  print("Positive number")
+elif num == 0:
+  print("zero")
+else:
+  print("Negative Number")
+and execute.
 
