@@ -225,3 +225,68 @@ Q4? Program to find the highest number in a list(We can use for loop
 sol
 k = [4,6,3,81,3,9,2]
 print(max(k))
+
+
+***  Functions & modules ***
+Defining function with def
+-Function is a reusable block of cod that performs the specific task.
+Ex: def functionname(parameters):
+      #block of code
+      #return result
+
+Ex: def add_number(a,b):
+       return a+b
+
+Calling the function
+result = add_number(4,7)
+print ("sum: ", result)
+
+-Scope, lifetime of variable
+-local scope: within a function
+-global scope: Accessible throughout the code
+-lifetime
+
+Ex: local scope
+def greet():
+  message ="hello world"
+  print(message)
+
+invoking/calling it
+-greet()
+
+if you say greet(message), you will get an error because message is only a local variable with a greet function. so you're calling it out of the function and it will not work. 
+
+Ex: Global scope (usually defined outside the function)
+greeting ="Hi"
+def Sayhello():
+  print(greeting)
+
+invoke/calling it
+-Sayhello()
+-print(greeting), it will work because it is outside the function and it is a global variable.
+
+
+-Importing modules & using them
+-modules are python files containing a collection of functions and variable that can b re-used.
+-A built in modules can include something like python has already given you some modules like math modules, os modules etc. To use them, you have to import them.
+Ex 
+  import modules
+  import math
+  print (math.sqrt(25))
+
+Ex import specific information
+from math import sqrt
+print (sqrt(16))
+
+Ex using Alias
+  import math as m
+  print (m.sqrt(49))
+
+creating custom modules
+create a .py file with custom functions and variables inside it and you can import that into another script using import and name of the module directly.
+
+-Hands on Exercise
+*Function to create or calculate factorial and call it as a module in another file.
+
+sol
+def factorial (n):
