@@ -220,3 +220,8 @@ To solve factorial , we import a math class and use the method of function in it
 Sol
 import math
 print(math.factorial(8))
+
+Q4? Program to find the highest number in a list(We can use for loop
+sol
+k = [4,6,3,81,3,9,2]
+print(max(k))
