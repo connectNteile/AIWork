@@ -1,0 +1,3 @@
+#Checking the highest number in a list
+k = [3,5,12,3,9.5.7.1]
+print(max(k))
