@@ -289,4 +289,11 @@ create a .py file with custom functions and variables inside it and you can impo
 *Function to create or calculate factorial and call it as a module in another file.
 
 sol
-def factorial (n):
+def factoriall (n):
+  if n == 0 0r n == 1:
+    return 1
+  else:
+    return n * factoriall(n-1)
+
+print(factoriall(5))
+
