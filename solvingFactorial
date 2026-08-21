@@ -1,3 +1,16 @@
 #import the math class
 import math
 print(math.factorial(8))
+
+
+#method 2: without function or modules
+#Function to create or calculate factorial and call it as a module in another file.
+
+#sol
+def factoriall (n):
+  if n == 0 0r n == 1:
+    return 1
+  else:
+    return n * factoriall(n-1)
+
+print(factoriall(5))
