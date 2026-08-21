@@ -10,13 +10,13 @@ Deep Learning: is like multiple kitchen stacked on top each other . The output o
 
 Types of machine learning
 -supervised learning: working with label or known data and getting feedback. You learn by comparing your results.
--unsupervised learning: working with unknown label or data. so you set for your result by experimenting , looking for similar partterns so as to make conclusion.
+-unsupervised learning: working with unknown label or data. so you set for your result by experimenting , looking for similar patterns so as to make conclusion.
 -Reinforcement: learning to cook through taste testing. Try different approach 
 
 AI techniques & Approach
 -Natural Language Processing(NLP): it is like understanding food description in different language . it is about teaching the computer to understand human languages.
 -Computer vision: is like a chef trained eye. it is a technique used to spot if something is undercooked or overcooked. so computer vision allow AI to see and interpret the visual world recognizing objects, people and activities in images and video.
--Generative AI is like a chef who can invent new recipes after learning from thousands of existing recipes. so it can create a new system tht has never existed.
+-Generative AI is like a chef who can invent new recipes after learning from thousands of existing recipes. so it can create a new system that has never existed.
 -LLM: they are like master chefs who have memorized every cooking book ever written. They can also write new recipes. LLM is like GPT four, that have been trained in vast amount of text to generate human like response to prompt.
 
 AI architecture components
