@@ -329,6 +329,64 @@ print ("Addition: ", mo.dividex(num1,num2))
 -so it will run since they both are inside the same folder or directory.
 
 Extra Exercise - Write a function to check if a number is even or odd and call it within another function.
-- create a module for string opertaion including function to reverse string, count words /vowel, check for Palindromes . import into script and test the function.
+- create a module for string operation including function to reverse string, count words /vowel, check for Palindromes . import into script and test the function.
 
-Day 4: Data Structure 
+--- solution ---
+def check_vowels(text):
+    # Define a set of vowels for fast lookup
+    vowels = "aeiouAEIOU"
+    
+    # Extract all vowels found in the string
+    found_vowels = [char for char in text if char in vowels]
+    
+    return {
+        "has_vowels": len(found_vowels) > 0,
+        "count": len(found_vowels),
+        "list": found_vowels
+    }
+
+# Example usage:
+text_to_check = "Congratulations"
+result = check_vowels(text_to_check)
+
+print(f"Contains vowels?: {result['has_vowels']}")
+print(f"Total vowel count: {result['count']}")
+print(f"Vowels found: {result['list']}")
+
+
+
+Day 4: Data Structure (list, tuple, Dictionaries, set)
+-list are ordered mutable collections that can hold variety of data type.
+-When we say mutable, they can be changed, appended, deleted, edit and so on.
+
+Creating List
+numbers = [1,2,3,4,5]
+fruits =["apple","banana","Cherry"]
+mixed = [1, "apple", 1.5]
+- list is accessed by index from 0 to any number
+
+print(numbers[1])
+print(frutis[2])
+print(mixed[0])
+
+-negative index (-1) , is for last item from the right side.
+print (numbers[-1])
+
+-Modifying List
+a. append( adding something at the end of the list
+fruits.append("guava")
+fruits.insert(1,"orange"), means insert orange at position 1.
+
+Removing items
+fruits.remove("banana")
+or 
+del fruits[0], this will delete the fruit at index 0
+print (fruits) , print out to see changes made.
+
+Removing last item in the list
+fruits.pop()
+print(fruits)
+
+slicing list(Getting list out of list)
+
+
