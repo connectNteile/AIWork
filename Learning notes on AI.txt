@@ -297,3 +297,38 @@ def factoriall (n):
 
 print(factoriall(5))
 
+
+Example of building a custom module
+program 1: math_operation.py
+def addx(a,b):
+  return a+b
+
+def sutractx(a,b)
+  return a-b
+
+def multiplx(a,b)
+  return a * b
+
+def dividex (a,b)
+  if b != 0
+    return a/b
+  else;
+    return "it is not a divisible number"
+ Save it and then you will import it in another program
+
+program 2: exercise.py
+import math_oprtation as mo
+num1 = 10
+num2 = 5
+
+print ("Addition: ", mo.addx(num1,num2))
+print ("Addition: ", mo.subtractx(num1,num2))
+print ("Addition: ", mo.multiplx(num1,num2))
+print ("Addition: ", mo.dividex(num1,num2))
+
+-so it will run since they both are inside the same folder or directory.
+
+Extra Exercise - Write a function to check if a number is even or odd and call it within another function.
+- create a module for string opertaion including function to reverse string, count words /vowel, check for Palindromes . import into script and test the function.
+
+Day 4: Data Structure 
